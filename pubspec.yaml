@@ -1,0 +1,83 @@
+name: flutter_resume_template
+
+#description of the package
+description:  >-
+  This plugin provides a customizable resume template
+  that can be easily integrated into a Flutter application.
+  
+
+#Version to be released
+version: 1.2.1
+
+#package homepage:
+homepage: https://github.com/JordyHers/flutter_resume_template
+
+#package repository
+repository: https://github.com/JordyHers/flutter_resume_template
+
+#remove that when the package is ready to be published
+#publish_to: none
+
+#funding url
+funding:
+  - https://patreon.com/user?u=91968185
+
+#supported platforms
+platforms:
+  android:
+  ios:
+  linux:
+  windows:
+  macos:
+  web:
+
+#licence supported
+license: MIT
+
+#environment supported
+environment:
+  sdk: '>=2.19.2 <4.0.0'
+  flutter: ">=2.5.0"
+
+
+#dependencies
+dependencies:
+  #Ui dependencies:
+  google_fonts: ^4.0.3
+  auto_size_text: ^3.0.0
+  flutter_shake_animated: ^0.0.5
+  http_mock_adapter: ^0.4.4
+
+  #logic package
+  pdf: ^3.10.1
+  path_provider: ^2.0.14
+
+  flutter:
+    sdk: flutter
+
+#screenshots
+#screenshots:
+#  - description: 'This screenshot shows 2 available templates'
+#    path: images/layout_types.png
+
+
+#dev dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+# plugin dependencies
+flutter:
+
+  plugin:
+    platforms:
+      android:
+        package: com.jordyhers.flutter_resume_template
+        pluginClass: FlutterResumeTemplatePlugin
+      ios:
+        pluginClass: FlutterResumeTemplatePlugin
+      web:
+
+
